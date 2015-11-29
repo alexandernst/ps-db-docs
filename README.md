@@ -23,3 +23,7 @@ thing is <b>huge</b>. I'm hoping people joining me at some point...
 Right now I'm trying to document `1.6.x`. Past and future versions will follow
 depending on contributions, spare time, and most importantly, the time I'm
 forced to spend with PrestaShop.
+
+## I'm blind! Where are the docs?
+
+Check the branches.
