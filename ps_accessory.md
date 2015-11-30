@@ -6,8 +6,8 @@ be an accessory for a blue dress. Accessories are set in `Catalog -> Products
 
 ## Rows
 
-* `id_product_1` - `PK` - the ID of the product.
-* `id_product_2` - `PK` - the ID of the product that is being assigned as an
+* `id_product_1` - `K` - the ID of the product.
+* `id_product_2` - `K` - the ID of the product that is being assigned as an
 accessory.
 
 ## Notes
