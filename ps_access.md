@@ -21,8 +21,8 @@ specific group of users. The set of rules is:
 
 * `id_profile` - `PK` - the ID of the user group (in the `ps_profile` and
 `ps_profile_lang` tables) that the rule applies to.
-* `id_tab` - `PK` - the ID of the tab (in the `ps_tab` and `ps_tab_lang` tables) that
-the rule applies to.
+* `id_tab` - `PK` - the ID of the tab (in the `ps_tab` and `ps_tab_lang` tables)
+that the rule applies to.
 * `view` - boolean.
 * `add` - boolean.
 * `edit` - boolean.
