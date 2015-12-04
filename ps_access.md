@@ -34,6 +34,17 @@ that the rule applies to.
 group and a specific tab <b>isn't</b> found, a default `DENY` or `NOT ALLOWED`
 will be assumed by PrestaShop.
 
+* Note that the previous statement is not true for the group `SuperAdmin`. Rules
+doesn't seem to apply for that group. Effectively, setting all 4 rules to `0`
+<b>won't</b> have any effect at all. Also, if a rule for a specific tab and
+group <b>isn't</b> found, a default `ALLOW` or `ALLOWED` will be assumed by
+PrestaShop.
+
+* Note that allowing a group of users to edit the `Menu` tab (ID `90` by
+default) will virtually allow them to gain SuperAdmin privileges as they could
+assign themselves edit permissions for the `Permissions` tab, which will then
+allow them to convert themselves to SuperAdmin.
+
 * If a tab can't be `viewed` by a group of users, all the children tabs won't be
 visible in the administration menu, but they still could be accessed via URL if
 they have the right set of rules.
